@@ -1,0 +1,49 @@
+!SESSION 2020-08-04 23:28:47.374 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/ajay.kushwaha/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/ajay.kushwaha/.eclipse_keyring
+
+!ENTRY org.eclipse.egit.core 1 0 2020-08-04 23:29:32.785
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2020-08-04 23:29:40.249
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2020-08-04 23:29:46.870
+!MESSAGE Initializing CodeMix Engine's settings file at /Users/ajay.kushwaha/Automation/MobileAutomation/.metadata/codemix.code-workspace
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2020-08-04 23:29:46.900
+!MESSAGE Verifying CodeMix Engine runtime integrity...
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2020-08-04 23:29:46.911
+!MESSAGE IntegrityCheck: Artifacts located at: [/Users/ajay.kushwaha/.p2/pool/artifacts.xml]
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2020-08-04 23:29:46.951
+!MESSAGE Integrity check PASSED
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2020-08-04 23:29:47.135
+!MESSAGE CodeMix Engine engine has been started
+
+!ENTRY org.eclipse.jface 2 0 2020-08-04 23:29:53.407
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-08-04 23:29:53.407
+!MESSAGE A conflict occurred for COMMAND+W:
+Binding(COMMAND+W,
+	ParameterizedCommand(Command(org.eclipse.ui.cocoa.closeDialog,Close Dialog,
+		Closes the active Dialog,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2b7e2212,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialog,,,system)
+Binding(COMMAND+W,
+	ParameterizedCommand(Command(org.eclipse.ui.file.close,Close,
+		Close the active editor,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7b9866c6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)

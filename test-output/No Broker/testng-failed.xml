@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [No Broker]">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="com.nobroker.test.PropertyCategoryTest">
+        <methods>
+          <include name="afterSuit"/>
+          <include name="verifyCategory"/>
+          <include name="verifySuggetedAnEdit"/>
+          <include name="verifyWhatsWrongOptions"/>
+          <include name="beforeSuit"/>
+          <include name="verifyScrollTillend"/>
+        </methods>
+      </class> <!-- com.nobroker.test.PropertyCategoryTest -->
+      <class name="com.nobroker.test.LaunchAndSearchTest">
+        <methods>
+          <include name="verifyBangaloreSelection"/>
+          <include name="verifyPermissionEnable"/>
+          <include name="verifyBuyButtonTap"/>
+          <include name="beforeSuit"/>
+          <include name="afterSuit"/>
+          <include name="verifySearchButton"/>
+        </methods>
+      </class> <!-- com.nobroker.test.LaunchAndSearchTest -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [No Broker] -->
