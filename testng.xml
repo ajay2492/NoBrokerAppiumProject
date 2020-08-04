@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="No Broker Suit">
+    <listeners>
+        <listener class-name="com.nobroker.ExtentReportListener.ExtentReporterNG" />
+    </listeners>
+    <test verbose="2" preserve-order="true" name="/Users/ajay.kushwaha/Automation/MobileAutomation">
+        <classes>
+            <class name="com.nobroker.test.PropertyCategoryTest" />
+            <class name="com.nobroker.test.LaunchAndSearchTest" />
+        </classes>
+    </test>
+</suite>
